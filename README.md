@@ -7,7 +7,7 @@ This API allows you to convert Docx files to PDF format using the docx-pdf NPM l
 
 ## Usage
 * Start the server by running <b> `npm run start` </b> in your terminal.
-* Navigate to `http://localhost:3000` in your web browser to access the API's web interface.
+* Navigate to <b>`http://localhost:3000`</b> in your web browser to access the API's web interface.
 * Select a Docx file to upload and click the "Convert to PDF" button to initiate the conversion process.
 * If the conversion is successful, the server will respond with the converted PDF file and your browser will prompt you to download it.
 * If there is an error during the conversion process, an error message will be displayed on the web interface.
