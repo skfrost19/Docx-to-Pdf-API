@@ -1,13 +1,13 @@
 {
   "name": "docx-pdf-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "An API to convert docx to pdf",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Shahil Kumar",
+  "license": "MIT",
   "dependencies": {
     "docx-pdf": "^0.0.1",
     "express": "^4.18.2",
