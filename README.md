@@ -25,4 +25,4 @@ morgan: for logging HTTP requests and responses
 ejs: for rendering HTML templates
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the <a href = "LICENSE" > MIT </a> License.
