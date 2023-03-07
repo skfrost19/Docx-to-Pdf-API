@@ -3,6 +3,8 @@ const multer = require('multer');
 const DocxToPdf = require('docx-pdf');
 const fs = require('fs');
 
+var port  = process.env.PORT || 3000;
+
 const app = express();
 const upload = multer({ dest: 'uploads/' });
 
@@ -35,6 +37,6 @@ app.post('/convert', upload.single('file'), (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server listening on port 3000');
 });
